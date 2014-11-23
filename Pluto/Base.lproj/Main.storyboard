@@ -39,7 +39,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="HOME" prompt="Please select " id="9zZ-NT-ND1">
                         <barButtonItem key="backBarButtonItem" title="Back" id="fRV-Eo-hmg"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="xkq-Rv-cWC">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="xkq-Rv-cWC">
                             <connections>
                                 <segue destination="1nF-MF-nn6" kind="push" id="3KO-md-306"/>
                             </connections>

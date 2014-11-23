@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A475CDF81A21AA7800158250 /* Bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A475CDF71A21AA7800158250 /* Bird.jpg */; };
 		A49C6B4B1A20E0AF00AE65BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C6B4A1A20E0AF00AE65BE /* AppDelegate.swift */; };
 		A49C6B4E1A20E0AF00AE65BE /* Pluto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49C6B4C1A20E0AF00AE65BE /* Pluto.xcdatamodeld */; };
 		A49C6B531A20E0AF00AE65BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49C6B511A20E0AF00AE65BE /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A475CDF71A21AA7800158250 /* Bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bird.jpg; sourceTree = "<group>"; };
 		A49C6B451A20E0AF00AE65BE /* Pluto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pluto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49C6B491A20E0AF00AE65BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A49C6B4A1A20E0AF00AE65BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				A49C6B4A1A20E0AF00AE65BE /* AppDelegate.swift */,
 				A49C6B511A20E0AF00AE65BE /* Main.storyboard */,
 				A49C6B541A20E0AF00AE65BE /* Images.xcassets */,
+				A475CDF71A21AA7800158250 /* Bird.jpg */,
 				A49C6B561A20E0AF00AE65BE /* LaunchScreen.xib */,
 				A49C6B4C1A20E0AF00AE65BE /* Pluto.xcdatamodeld */,
 				A49C6B481A20E0AF00AE65BE /* Supporting Files */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A475CDF81A21AA7800158250 /* Bird.jpg in Resources */,
 				A49C6B531A20E0AF00AE65BE /* Main.storyboard in Resources */,
 				A49C6B581A20E0AF00AE65BE /* LaunchScreen.xib in Resources */,
 				A49C6B551A20E0AF00AE65BE /* Images.xcassets in Resources */,
@@ -405,6 +409,7 @@
 				A49C6B691A20E0AF00AE65BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A49C6B6A1A20E0AF00AE65BE /* Build configuration list for PBXNativeTarget "PlutoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				A49C6B6C1A20E0AF00AE65BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A475CDF81A21AA7800158250 /* Bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A475CDF71A21AA7800158250 /* Bird.jpg */; };
+		A475CDFA1A21E60C00158250 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A475CDF91A21E60C00158250 /* MapKit.framework */; };
 		A49C6B4B1A20E0AF00AE65BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C6B4A1A20E0AF00AE65BE /* AppDelegate.swift */; };
 		A49C6B4E1A20E0AF00AE65BE /* Pluto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49C6B4C1A20E0AF00AE65BE /* Pluto.xcdatamodeld */; };
 		A49C6B531A20E0AF00AE65BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49C6B511A20E0AF00AE65BE /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		A475CDF71A21AA7800158250 /* Bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bird.jpg; sourceTree = "<group>"; };
+		A475CDF91A21E60C00158250 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		A49C6B451A20E0AF00AE65BE /* Pluto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pluto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A49C6B491A20E0AF00AE65BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A49C6B4A1A20E0AF00AE65BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A475CDFA1A21E60C00158250 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +64,7 @@
 		A49C6B3C1A20E0AF00AE65BE = {
 			isa = PBXGroup;
 			children = (
+				A475CDF91A21E60C00158250 /* MapKit.framework */,
 				A49C6B471A20E0AF00AE65BE /* Pluto */,
 				A49C6B601A20E0AF00AE65BE /* PlutoTests */,
 				A49C6B461A20E0AF00AE65BE /* Products */,

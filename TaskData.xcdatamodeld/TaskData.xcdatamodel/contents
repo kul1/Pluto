@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14B23" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="TaskData" representedClassName="TaskData" syncable="YES">
+        <attribute name="identifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoFullURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photoThumbURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="taskImage" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="taskName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="TaskData" positionX="-63" positionY="-18" width="128" height="133"/>
+    </elements>
+</model>

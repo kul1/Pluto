@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A42DC0BE1A220F360020D204 /* TaskData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC0BD1A220F360020D204 /* TaskData.swift */; };
+		A42DC0CB1A2231A30020D204 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42DC0CA1A2231A30020D204 /* CustomCell.swift */; };
 		A475CDF81A21AA7800158250 /* Bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A475CDF71A21AA7800158250 /* Bird.jpg */; };
 		A475CDFA1A21E60C00158250 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A475CDF91A21E60C00158250 /* MapKit.framework */; };
+		A475CE021A22071900158250 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475CE011A22071900158250 /* ImageViewController.swift */; };
+		A475CE041A22076B00158250 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475CE031A22076B00158250 /* SecondViewController.swift */; };
+		A475CE061A220C4E00158250 /* SwiftCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A475CE051A220C4D00158250 /* SwiftCoreDataHelper.swift */; };
+		A47AD5221A23512200E77805 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47AD5211A23512200E77805 /* FirstTableViewController.swift */; };
+		A47AD5241A2354EA00E77805 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A47AD5231A2354EA00E77805 /* img1.jpg */; };
+		A47AD52A1A2362B200E77805 /* TaskData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A47AD5281A2362B200E77805 /* TaskData.xcdatamodeld */; };
 		A49C6B4B1A20E0AF00AE65BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49C6B4A1A20E0AF00AE65BE /* AppDelegate.swift */; };
-		A49C6B4E1A20E0AF00AE65BE /* Pluto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A49C6B4C1A20E0AF00AE65BE /* Pluto.xcdatamodeld */; };
 		A49C6B531A20E0AF00AE65BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A49C6B511A20E0AF00AE65BE /* Main.storyboard */; };
 		A49C6B551A20E0AF00AE65BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A49C6B541A20E0AF00AE65BE /* Images.xcassets */; };
 		A49C6B581A20E0AF00AE65BE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A49C6B561A20E0AF00AE65BE /* LaunchScreen.xib */; };
@@ -28,16 +35,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A42DC0BD1A220F360020D204 /* TaskData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskData.swift; sourceTree = "<group>"; };
+		A42DC0CA1A2231A30020D204 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		A475CDF71A21AA7800158250 /* Bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bird.jpg; sourceTree = "<group>"; };
 		A475CDF91A21E60C00158250 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		A49C6B451A20E0AF00AE65BE /* Pluto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pluto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A475CE011A22071900158250 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		A475CE031A22076B00158250 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A475CE051A220C4D00158250 /* SwiftCoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCoreDataHelper.swift; sourceTree = "<group>"; };
+		A47AD5211A23512200E77805 /* FirstTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		A47AD5231A2354EA00E77805 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
+		A47AD5291A2362B200E77805 /* TaskData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskData.xcdatamodel; sourceTree = "<group>"; };
+		A49C6B451A20E0AF00AE65BE /* Pluto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Pluto.app; path = "/Applications/MAMP/htdocs/mac/Pluto/build/Debug-iphoneos/Pluto.app"; sourceTree = "<absolute>"; };
 		A49C6B491A20E0AF00AE65BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A49C6B4A1A20E0AF00AE65BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A49C6B4D1A20E0AF00AE65BE /* Pluto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pluto.xcdatamodel; sourceTree = "<group>"; };
 		A49C6B521A20E0AF00AE65BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A49C6B541A20E0AF00AE65BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A49C6B571A20E0AF00AE65BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A49C6B5D1A20E0AF00AE65BE /* PlutoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlutoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A49C6B5D1A20E0AF00AE65BE /* PlutoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PlutoTests.xctest; path = "/Applications/MAMP/htdocs/mac/Pluto/build/Debug-iphoneos/PlutoTests.xctest"; sourceTree = "<absolute>"; };
 		A49C6B621A20E0AF00AE65BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A49C6B631A20E0AF00AE65BE /* PlutoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlutoTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,34 +75,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A475CE071A220C5D00158250 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A475CE051A220C4D00158250 /* SwiftCoreDataHelper.swift */,
+				A42DC0BD1A220F360020D204 /* TaskData.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		A49C6B3C1A20E0AF00AE65BE = {
 			isa = PBXGroup;
 			children = (
+				A47AD5281A2362B200E77805 /* TaskData.xcdatamodeld */,
 				A475CDF91A21E60C00158250 /* MapKit.framework */,
 				A49C6B471A20E0AF00AE65BE /* Pluto */,
 				A49C6B601A20E0AF00AE65BE /* PlutoTests */,
-				A49C6B461A20E0AF00AE65BE /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		A49C6B461A20E0AF00AE65BE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A49C6B451A20E0AF00AE65BE /* Pluto.app */,
-				A49C6B5D1A20E0AF00AE65BE /* PlutoTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		A49C6B471A20E0AF00AE65BE /* Pluto */ = {
 			isa = PBXGroup;
 			children = (
+				A475CE071A220C5D00158250 /* Helper */,
 				A49C6B4A1A20E0AF00AE65BE /* AppDelegate.swift */,
 				A49C6B511A20E0AF00AE65BE /* Main.storyboard */,
+				A47AD5211A23512200E77805 /* FirstTableViewController.swift */,
+				A42DC0CA1A2231A30020D204 /* CustomCell.swift */,
+				A475CE031A22076B00158250 /* SecondViewController.swift */,
+				A475CE011A22071900158250 /* ImageViewController.swift */,
 				A49C6B541A20E0AF00AE65BE /* Images.xcassets */,
+				A47AD5231A2354EA00E77805 /* img1.jpg */,
 				A475CDF71A21AA7800158250 /* Bird.jpg */,
 				A49C6B561A20E0AF00AE65BE /* LaunchScreen.xib */,
-				A49C6B4C1A20E0AF00AE65BE /* Pluto.xcdatamodeld */,
 				A49C6B481A20E0AF00AE65BE /* Supporting Files */,
 			);
 			path = Pluto;
@@ -168,6 +187,7 @@
 				TargetAttributes = {
 					A49C6B441A20E0AF00AE65BE = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = G2F7KTUB43;
 					};
 					A49C6B5C1A20E0AF00AE65BE = {
 						CreatedOnToolsVersion = 6.1;
@@ -184,7 +204,7 @@
 				Base,
 			);
 			mainGroup = A49C6B3C1A20E0AF00AE65BE;
-			productRefGroup = A49C6B461A20E0AF00AE65BE /* Products */;
+			productRefGroup = A49C6B3C1A20E0AF00AE65BE;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -200,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A475CDF81A21AA7800158250 /* Bird.jpg in Resources */,
+				A47AD5241A2354EA00E77805 /* img1.jpg in Resources */,
 				A49C6B531A20E0AF00AE65BE /* Main.storyboard in Resources */,
 				A49C6B581A20E0AF00AE65BE /* LaunchScreen.xib in Resources */,
 				A49C6B551A20E0AF00AE65BE /* Images.xcassets in Resources */,
@@ -220,7 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A49C6B4E1A20E0AF00AE65BE /* Pluto.xcdatamodeld in Sources */,
+				A475CE041A22076B00158250 /* SecondViewController.swift in Sources */,
+				A42DC0CB1A2231A30020D204 /* CustomCell.swift in Sources */,
+				A47AD52A1A2362B200E77805 /* TaskData.xcdatamodeld in Sources */,
+				A47AD5221A23512200E77805 /* FirstTableViewController.swift in Sources */,
+				A475CE061A220C4E00158250 /* SwiftCoreDataHelper.swift in Sources */,
+				A42DC0BE1A220F360020D204 /* TaskData.swift in Sources */,
+				A475CE021A22071900158250 /* ImageViewController.swift in Sources */,
 				A49C6B4B1A20E0AF00AE65BE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +371,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pluto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,6 +382,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pluto/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,13 +456,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A49C6B4C1A20E0AF00AE65BE /* Pluto.xcdatamodeld */ = {
+		A47AD5281A2362B200E77805 /* TaskData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A49C6B4D1A20E0AF00AE65BE /* Pluto.xcdatamodel */,
+				A47AD5291A2362B200E77805 /* TaskData.xcdatamodel */,
 			);
-			currentVersion = A49C6B4D1A20E0AF00AE65BE /* Pluto.xcdatamodel */;
-			path = Pluto.xcdatamodeld;
+			currentVersion = A47AD5291A2362B200E77805 /* TaskData.xcdatamodel */;
+			path = TaskData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
